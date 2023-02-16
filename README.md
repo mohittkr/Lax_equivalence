@@ -1,3 +1,7 @@
+Formal proof of the Lax equivalence theorem for finite difference schemes.
+
+
+
 The Coq files are grouped as follows:
 1. Ah_properties.v : We define the tri-diagonal matrix Ah and define properties on it. These properties are lemmas on extraction of zero entries row   wise and column wise. These lemmas are then used to prove the lemmas on the spectrum of Ah and the invertibility of Ah.
 
@@ -61,3 +65,7 @@ finite difference scheme.
 
 
 To compile all the files, just run make. 
+
+
+This work was accepted to the NASA formal methods conference (NFM, 2021): https://doi.org/10.1007/978-3-030-76384-8_20
+
